@@ -33,6 +33,10 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  flutter_native_splash: ^1.2.0
+
+  
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
@@ -77,3 +81,10 @@ flutter:
   
   assets:
    - assets/images/rimma.png
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/splash.png
+
+
+ 
