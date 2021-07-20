@@ -33,6 +33,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
+  flutter_native_splash: ^1.2.0
   flutter_launcher_icons: "^0.9.0"
 
 flutter_icons:
@@ -40,6 +41,8 @@ flutter_icons:
   ios: true
   image_path: "assets/images/launcher.png"
   image_path_ios: "assets/images/launcher.jpg"
+
+  
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -85,3 +88,10 @@ flutter:
   
   assets:
    - assets/images/rimma.png
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/splash.png
+
+
+ 
