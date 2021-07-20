@@ -35,6 +35,10 @@ dev_dependencies:
 
   flutter_native_splash: ^1.2.0
 
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/splash.png
+
   
 
 # For information on the generic Dart part of this file, see the
@@ -82,9 +86,6 @@ flutter:
   assets:
    - assets/images/rimma.png
 
-flutter_native_splash:
-  color: "#ffffff"
-  image: assets/images/splash.png
 
 
  
