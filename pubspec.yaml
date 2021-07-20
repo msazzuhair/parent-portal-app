@@ -34,6 +34,17 @@ dev_dependencies:
     sdk: flutter
 
   flutter_native_splash: ^1.2.0
+  flutter_launcher_icons: "^0.9.0"
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/splash.png
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/launcher.png"
+  image_path_ios: "assets/images/launcher.jpg"
 
   
 
@@ -81,10 +92,6 @@ flutter:
   
   assets:
    - assets/images/rimma.png
-
-flutter_native_splash:
-  color: "#ffffff"
-  image: assets/images/splash.png
 
 
  
